@@ -12,8 +12,10 @@
 }
 
 /* START: General styles */
-.max-width {
-  @apply max-w-[1440px] mx-auto;
+@layer components {
+  .max-width {
+    @apply max-w-[1440px] mx-auto;
+  }
 }
 
 .padding-x {
